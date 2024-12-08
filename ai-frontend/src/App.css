@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-chatbot-kit-chat-container{
+  position: relative;
+  width: 800px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 35px;
+  min-width: 500px;
+}
+
+.react-chatbot-kit-chat-bot-message code {
+  font-family: 'Courier New', monospace; /* This provides a typewriter-style, code-like appearance */
+  background-color: #aaddff; /* Light grey background */
+  color: #333; /* Darker text color for contrast */
+  padding: 2px 4px; /* Padding around the code */
+  border-radius: 4px; /* Optional: adds rounded corners to the code block */
+}
